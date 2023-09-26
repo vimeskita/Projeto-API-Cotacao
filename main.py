@@ -49,7 +49,7 @@ while True:
             elif codigo_cotacao == "USD":
                 nome_moeda = "Dólar Americano"
             else:
-                nome_moeda == "Bitcoin"
+                nome_moeda = "Bitcoin"
 
             #Para editar um campo que já existe para mostrar a mensagem da cotação atual, fazemos:
             janela["texto_cotaçao"].update(f'A cotação do {nome_moeda} é de R${cotacao:.2f}')
